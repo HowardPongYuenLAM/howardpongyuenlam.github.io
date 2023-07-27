@@ -6,7 +6,8 @@ def main():
     st.set_page_config(page_title="Ask your PDF")
     st.header("Ask your PDF 💬")
 #    response=MY_HUGGINGFACEHUB_API_TOKEN = "abc"
-    response=os.environ.get('MY_HUGGINGFACEHUB_API_TOKEN')
+#    response=os.environ.get('MY_HUGGINGFACEHUB_API_TOKEN')
+    response=os.environ.get('test')
     st.write(response)
    
 
